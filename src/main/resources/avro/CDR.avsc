@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "CDR",
+  "namespace": "com.cdr",
+  "doc": "Generated CDRs schema from simulation tool",
+  "fields": [
+    {"name": "numberA", "type":"string", "doc": "Calling number"},
+    {"name": "numberB", "type":"string", "doc": "Called number"},
+    {"name": "timestamp", "type":"long", "logicalType": "timestamp-millis", "doc": "Call timestamp"},
+    {"name": "duration", "type": "int", "doc": "Call duration"}
+  ]
+}
